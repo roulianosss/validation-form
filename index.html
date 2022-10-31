@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Validation</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="global-container">
+    <h1>Inscrivez-vous.</h1>
+    <form type="submit" class="form-container">
+      <div>
+        <label for="username">Nom d'utilisateur</label>
+        <input type="username" placeholder="3 caractères minimum">
+        <img src="" alt="">
+        <p></p>
+      </div>
+      <div>
+        <label for="email">Entrez votre email</label>
+        <input type="text" placeholder="Votre email">
+        <img src="" alt="">
+        <p></p>
+      </div>
+      <div>
+        <label for="password">Mots de passe</label>
+        <input type="password" placeholder="Votre mot de passe">
+        <img src="" alt="">
+        <p class="info-pw">Au moins un symbole, un chiffre ainsi que 6 caractères minimum</p>
+        
+      </div>
+      <div class="password-strength">
+          <div>Faible</div>
+          <div>Moyen</div>
+          <div>Fort</div>
+      </div>
+      <div>
+        <label for="password-confirm">Confirmez le mot de passe</label>
+        <input type="password" id='password-confirm' placeholder="Confirmez le mot de passe">
+        <img src="" alt="">
+        <p></p>
+      </div>
+      <button>Création du compte</button>
+  </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
